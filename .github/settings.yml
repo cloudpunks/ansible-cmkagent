@@ -1,6 +1,6 @@
 ---
 repository:
-  name: cmkagent
+  name: ansible-cmkagent
   description: Ansible role to install an CheckMK agent and some local checks
   topics: ansible, role, ansible-role, hacktoberfest
 

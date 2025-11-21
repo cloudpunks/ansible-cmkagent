@@ -15,5 +15,6 @@
             ],
             "extractVersion": "^v(?<version>.*)$"
         }
-    ]
+    ],
+    "enabled": false
 }

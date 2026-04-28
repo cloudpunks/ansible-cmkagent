@@ -166,7 +166,7 @@ Version used to download agent and plugins
 #### Default value
 
 ```YAML
-cmkagent_version: 2.4.0
+cmkagent_version: 2.5.0
 ```
 
 ## Discovered Tags

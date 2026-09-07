@@ -9,8 +9,8 @@
 
 - name: Install python shebang
   when:
-    - ansible_distribution == 'Ubuntu'
-    - ansible_distribution_version is version('20.04', '>=')
+    - ansible_facts['distribution'] == 'Ubuntu'
+    - ansible_facts['distribution_version'] is version('20.04', '>=')
   ansible.builtin.package:
     name: "{{ cmkagent_python_shebang }}"
     state: present
@@ -19,8 +19,8 @@
 
 - name: Symlink python wrapper
   when:
-    - ansible_distribution == 'Ubuntu'
-    - ansible_distribution_version is version('19.10', '<=')
+    - ansible_facts['distribution'] == 'Ubuntu'
+    - ansible_facts['distribution_version'] is version('19.10', '<=')
   ansible.builtin.file:
     src: "{{ cmkagent_python_symlink }}"
     dest: /usr/bin/python

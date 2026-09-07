@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.0](https://github.com/rolehippie/cmkagent/compare/v2.7.1...v2.8.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([2a29298](https://github.com/rolehippie/cmkagent/commit/2a2929833fe856cf5034d5728a9ab607eec8eac3))
+* use new required facts as attributes ([75c54aa](https://github.com/rolehippie/cmkagent/commit/75c54aa15e88ff4e0d86736db1f5a166fd760181))
+
 ## [2.7.1](https://github.com/rolehippie/cmkagent/compare/v2.7.0...v2.7.1) (2026-08-31)
 
 ### Dependencies
